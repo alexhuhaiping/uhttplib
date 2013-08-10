@@ -18,11 +18,10 @@ setup(
         'Natural Language :: English',
         'Operating System :: OS Independent',
         'Programming Language :: Python :: 2.7',
-        'Topic :: Internet :: Version Control',
         'Topic :: Software Development :: Libraries',
     ],
     description='Unix domain socket support for httplib.',
-    download_url='https://bitbucket.org/evzijst/uhttplib/downloads/uhttplib-0.1.tar.gz',
+    download_url='https://bitbucket.org/evzijst/uhttplib/downloads/uhttplib-0.2.tar.gz',
     keywords='httplib unixdomain',
     long_description=long_description(),
     license='MIT',
@@ -30,5 +29,5 @@ setup(
     packages=['uhttplib'],
     requires=['httplib'],
     url='https://bitbucket.org/evzijst/uhttplib',
-    version='0.1'
+    version='0.2'
 )
